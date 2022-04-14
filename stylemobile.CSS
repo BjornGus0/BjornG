@@ -1,0 +1,162 @@
+#navigation {
+    margin-left: 2%;
+    margin-right: 2%;
+    z-index: 3;
+    height: 30vh;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background-color: #f7ebcb;
+}
+
+.NavTxt {
+    margin: 20px 60px;
+    font-size: 28px;
+    list-style: none;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+}
+
+.NavOn {
+    color: rgb(104, 104, 104) !important;
+    text-decoration: none;
+}
+
+.NavLink {
+    color: black !important;
+    text-decoration: none;
+}
+
+.NavLink:hover {
+    color: #1d889b !important;
+    text-decoration: none;
+}
+
+#BackgroundImg {
+    display: none;
+}
+
+.PageName {
+    margin-top: 35vh;
+    margin-left: 10%;
+    z-index:-10;
+    background-color: rgb(187, 187, 187);
+    opacity: 0.9;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 2px;
+    position: absolute;
+    justify-content: center;
+}
+
+#PageNameAbout {
+    margin-left: 29%;
+    font-size: 20px;
+}
+
+#PageNameMusic {
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+#Background {
+    margin-top: 60vh;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 95%;
+    height: 1300px;
+    border-radius: 25px;
+    z-index: -9;
+    background-color: bisque;
+    position: absolute;
+
+}
+
+.BodStart {
+    margin-top: 64vh;
+    margin-left: 2px;
+    margin-right: 2px;
+    position: absolute;
+}
+
+.BodStart img {
+    padding-top:5px;
+    width: 86%;
+    height: auto;
+}
+
+.Row {
+    margin-left: 0px;
+}
+
+.ColumnL {
+    margin-top: 4px;
+    margin-left: 3px;
+    margin-right:7px;
+    flex: 80%;
+    padding: 1px;
+    border-radius: 15px;
+    background-color: #FFFDD0;
+    text-align: center;
+}
+
+.ColumnR {
+    margin-top: 4px;
+    margin-left: 3px;
+    margin-right:7px;
+    flex: 80%;
+    padding: 1px;
+    border-radius: 15px;
+    background-color: #FFFDD0;
+    text-align: center;
+}
+
+.ColumnLink {
+    text-decoration: none;
+    color: black;
+}
+
+.RowVM {
+    margin-top:60px;
+}
+
+.Subtitle {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FFFDD0;
+}
+
+.RowV {
+    padding: 4px;
+    flex: 100%; 
+    background-color: #FFFDD0;
+}
+
+.RowV iframe{
+    height: 220px;
+    width: auto;
+}
+
+.RowH {
+    flex-basis: 50px;
+    padding-left: 40px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.RowT {
+    padding: 2px;
+    flex-basis: 100px;
+    text-align: center;
+    word-wrap: normal;
+    font-style: italic;
+}
+
+.RowLi {
+    text-align: center;
+    list-style: none;
+}
+
+.Up {
+    justify-content: right;
+}

@@ -1,0 +1,175 @@
+#navigation {
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 3;
+    opacity: .7;
+    height: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    background-color: #f7ebcb;
+}
+
+.navtxt {
+    margin: 20px 60px;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    display: inline;
+}
+
+.navon {
+    color: rgb(104, 104, 104) !important;
+    text-decoration: none;
+}
+
+.navlink {
+    color: black !important;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #1d889b !important;
+    text-decoration: none;
+}
+
+#backgroundImg {
+    margin-top: 3vh;
+    margin-left: 2%;
+    z-index: -11;
+    width: 92%;
+    height: 595px;
+    position: absolute;
+}
+
+.pagename {
+    margin-left: 29%;
+    margin-top: 24vh;
+    z-index:-10;
+    background-color: rgb(187, 187, 187);
+    opacity: 0.9;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 2px;
+    position: absolute;
+    justify-content: center;
+}
+
+#pagenameabout {
+    margin-left: 35%;
+    font-size: 20px;
+}
+
+#pagenamemusic {
+    margin-left: 16%;
+    font-size: 20px;
+}
+
+#PageNameSevCon {
+    margin-left: 0%;
+    font-size: 20px;
+}
+
+#Background {
+    margin-top: 60vh;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 95%;
+    height: 2550px;
+    border-radius: 25px;
+    z-index: -9;
+    background-color: bisque;
+    position: absolute;
+
+}
+
+.BodStart {
+    margin-top: 64vh;
+    margin-left: 2px;
+    margin-right: 2px;
+    position: absolute;
+}
+
+.BodStart img {
+    padding-top:5px;
+    width: 86%;
+    height: auto;
+}
+
+.Row {
+    margin-left: 0px;
+}
+
+.ColumnL {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 43px;
+    flex: 80%;
+    padding: 1px;
+    border-radius: 15px;
+    background-color: #FFFDD0;
+    text-align: center;
+}
+
+.ColumnR {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 43px;
+    flex: 80%;
+    padding: 1px;
+    border-radius: 15px;
+    background-color: #FFFDD0;
+    text-align: center;
+}
+
+.ColumnLink {
+    text-decoration: none;
+    color: black;
+}
+
+.RowVM {
+    margin-top:60px;
+}
+
+.Subtitle {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FFFDD0;
+}
+
+.RowV {
+    margin-right: 30px;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 8px;
+    flex: 100%; 
+    background-color: #FFFDD0;
+}
+
+.RowV iframe{
+    display: block;
+    margin: auto;
+}
+
+.RowH {
+    flex-basis: 50px;
+    padding-left: 40px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.RowT {
+    padding: 2px;
+    flex-basis: 100px;
+    text-align: center;
+    word-wrap: normal;
+    font-style: italic;
+}
+
+.RowLi {
+    text-align: center;
+    list-style: none;
+}
