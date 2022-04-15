@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Björn Gustafsson</title>
-    <link rel="stylesheet" media="screen and (min-width: 900px)" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="style.CSS">
     <link rel="stylesheet" media="screen and (max-width: 900px) and (min-width: 500px)" href="styletablet.CSS">
     <link rel="stylesheet" media="screen and (max-width: 500px)" href="stylemobile.CSS">
   </head>
@@ -24,15 +24,26 @@
       <div> <!-- Find a better imagine, eventually-->
         <img src="assets/For Four, for timpani.png" width="800" height="790" id="BackgroundImg">
       </div>
-      <div Class="PageName">
-        <h1>Services & Contact</h1> 
-      </div>
-      <div id="Background"></div>
-      <div class="BodStart"> <!--Start of About and other stuff-->
-                <div class="ColumnR">
-          <img src="assets/plankton.png">
-          <h1>Website in progress more coming soon</h1>
-        </div>
+      <div class="ContactBox">
+        <form action="mailto:bjorngmusic@gmail.com" method="GET" target="_blank">
+          <div>
+            <h1>Let's Connect</h1>
+            <p class="title">Are you interested in Original scores or other pieces for your ensemble? engraving?  Orchestration? Or just want to say hi.  Here's how! </p> 
+          </div>
+          <div class="field">
+            <label class="FSpace" for="subject">Subject</label>
+            <br/>
+            <input name="subject" id="subject" type="text" class="input">
+          </div>
+          <div>
+            <label class="FSpace" for="body">Your Message</label>
+            <br/>
+            <textarea class="textarea" name="body" id="body" rows="13" cols="45"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Create Email" class="button is-primary">
+          </div>
+        </form>
       </div>
     </div>
   </body>
