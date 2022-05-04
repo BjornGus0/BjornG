@@ -1,3 +1,7 @@
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 #navigation {
     margin-left: 10%;
     margin-right: 10%;
@@ -9,7 +13,7 @@
     flex-direction: row;
     justify-content: center;
     position: fixed;
-    background-color: #f7ebcb;
+    background-color: #3A6B34;
 }
 
 .NavTxt {
@@ -22,7 +26,7 @@
 }
 
 .NavOn {
-    color: #1d889b !important;
+    color: grey !important;
     text-decoration: none;
 }
 
@@ -32,10 +36,11 @@
 }
 
 .NavLink:hover {
-    color: #1d889b !important;
+    color:grey !important;
     text-decoration: none;
 }
 
+/* When more scores add second page for sheet */
 #BackgroundImg {
     margin-top: 3vh;
     margin-left: 22%;
@@ -78,7 +83,20 @@
     height: 1300px;
     border-radius: 25px;
     z-index: -9;
-    background-color: bisque;
+    background-color: black;
+    position: absolute;
+
+}
+
+#BackgroundAbout {
+    margin-top: 90vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 98%;
+    height: 700px;
+    border-radius: 25px;
+    z-index: -9;
+    background-color: black;
     position: absolute;
 
 }
@@ -90,8 +108,11 @@
     position: absolute;
 }
 
+#A {
+    margin-top: 20vh !important;
+}
+
 .Row {
-    margin-left: 80px;
     display: flex;
 }
 
@@ -101,7 +122,7 @@
     flex: 100%;
     padding: 20px;
     border-radius: 15px;
-    background-color: #FFFDD0;
+    background-color: grey;
     text-align: center;
 }
 
@@ -111,7 +132,7 @@
     flex: 100%;
     padding: 20px;
     border-radius: 15px;
-    background-color: #FFFDD0;
+    background-color: grey;
     text-align: center;
 }
 
@@ -120,36 +141,14 @@
     color: black;
 }
 
-.RowVM {
-    margin-top:60px;
-}
-
 .Subtitle {
     border-radius: 5px;
     text-align: center;
-    background-color: #FFFDD0;
+    background-color: grey;
 }
 
-.RowV {
-    padding: 4px;
-    flex: 100%;
-    background-color: #FFFDD0;
-    display: flex;
-}
-
-.RowH {
-    flex-basis: 50px;
-    padding-left: 40px;
-    margin-right: 50px;
-    text-align: center;
-}
-
-.RowT {
-    padding: 2px;
-    flex-basis: 100px;
-    text-align: center;
-    word-wrap: normal;
-    font-style: italic;
+#MusicSub {
+    margin-left: 30vh;
 }
 
 .RowLi {
@@ -162,12 +161,14 @@
     margin-left: 50%;
 }  */
 
-.ContactBox {
+.SmallBox {
     margin-top: 20vh;
     margin-left: 33%;
     width: 500px;
     border-radius: 15px;
-    background-color: #1d889b;
+    padding: 6px;
+    text-align: center;
+    background-color: grey;
     position: absolute;
 }
 
@@ -178,7 +179,7 @@
 }
 
 
-form {
+.form {
     padding: 1rem;
     width: 450px;
     text-align: center;
@@ -191,4 +192,87 @@ form {
 
 .FSpace {
     padding: 10px;
+}
+
+.BioBox  {
+    margin-top: 20vh;
+    margin-left: 400px;
+    width: 500px;
+    padding: 5px;
+    flex: 33.33%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BulletBox  {
+    margin-left: 180px;
+    width: 500px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.C {
+    margin-top: 23vh;
+    padding: 8px;
+    flex: 33.33%;
+    float: left;
+}
+
+.VidBigCon {
+    padding: 8px;
+    display: flex;
+}
+
+.VidCon{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    flex: 1
+}
+
+.VidCon2{
+    margin-left: 240px;
+}
+
+.VidBox{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 15px;            
+    position: absolute;
+}
+
+.TopBox{
+    z-index: 9;
+    width: 450px;
+    height: 350px;
+    background-color: grey;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    opacity: 100%;
+}
+
+.TopBox:hover {
+    display: none;
+}
+
+.ScoreTitle {
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 240px;
+    text-align: center;
+    background-color: grey;
 }

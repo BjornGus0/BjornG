@@ -43,11 +43,9 @@ Ideas:
 	- F Nav bar position should be absolute on the screen so if scrolling is needed for longer pages the nav can be accessed at any point
 
 Color Palette:
-#5F634F Ebony
-#9BC4CB Light Blue
-#CFEBDF Honeydew
-#E2FADB Nyanza
-#DBEFBC Tea Green
+#E3B448
+#CBD28F
+#3A6B34
 
 F - Figure out
 N - Not started

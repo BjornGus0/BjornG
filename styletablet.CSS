@@ -173,3 +173,34 @@
     text-align: center;
     list-style: none;
 }
+
+.ContactBox {
+    margin-top: 20vh;
+    margin-left: 33%;
+    width: 500px;
+    border-radius: 15px;
+    background-color: #E3B448;
+    position: absolute;
+}
+
+.title {
+    margin-left: 14%;
+    width: 330px;
+    word-wrap: break-word;
+}
+
+
+form {
+    padding: 1rem;
+    width: 450px;
+    text-align: center;
+}
+
+.field {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.FSpace {
+    padding: 10px;
+}
